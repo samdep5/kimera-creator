@@ -6,7 +6,6 @@
     line-height: 60px;
     font-weight: normal;
     text-decoration: none;
-    
 }
 
 .buttontext {
@@ -31,7 +30,7 @@
 }
 .find{
     margin-top: 55px;
-    margin-botton: 20px;
+    margin-bottom: 20px;
     margin-left: 529px;
     margin-right: 529px;
 }
@@ -39,7 +38,6 @@
     width: 486px;
     height: auto;
     margin:0px;
-
 }
 
 .col .creatorimage {
@@ -53,9 +51,8 @@
     align-items: center;
     text-align: center;
     margin: 0px;
-    
 }
-.navbar .navbar-expand-sm .navbar-light{
+.navbar .navbar-expand-sm .navbar-light {
     padding: 5%
 }
 .tint {
