@@ -1,0 +1,183 @@
+/*navigation bar  */
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: red;
+    font-style: italic;
+    font-size: 200%;
+    line-height: 60px;
+    font-weight: normal;
+    text-decoration: none;
+    
+}
+
+.buttontext {
+    background: rgba(255, 0, 0, 0.7);
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.apply {
+    border-radius: 10px;
+    font-size: 17.5px;
+    width: 453px;
+    height: 55px;   
+    letter-spacing: 0.002em;
+}
+
+.icon{
+    height: 65px;
+    width: auto;
+}
+.find{
+    margin-top: 55px;
+    margin-botton: 20px;
+    margin-left: 529px;
+    margin-right: 529px;
+}
+.col .fanimage {
+    width: 486px;
+    height: auto;
+    margin:0px;
+
+}
+
+.col .creatorimage {
+    width: 621px; 
+    height: 430px;
+}
+
+.col-lg {
+    text-align: center;
+    line-height: 125%;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    
+}
+.navbar .navbar-expand-sm .navbar-light{
+    padding: 5%
+}
+.tint {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+h1 {
+    font-weight: bold;
+    font-size: 160%;
+    align-items: center;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    align-items: center;
+}
+.submitter{
+    padding-left: 175px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 252px;
+}
+h3 {
+    font-weight: 200 !important;
+    font-size: 22.5px !important;
+    }
+
+.navbar .navbar-light .nav-link {
+    color: black;
+    font-size: 22.5px;
+}
+.navbar .navbar-light .nav-link .active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: red;
+    text-decoration: underline;
+    font-size: 22.5px;
+}
+
+html {
+    font-style: normal;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.greetpic
+{
+   max-width: 50%;
+   height: auto;
+
+}
+
+.emailenter {
+    width: 396px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 10px;
+    align-items:center;
+    padding-right: 50px;
+}
+
+.emailsubmit {
+    width: 153px;
+    height: 60px;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -50px;
+}
+.emailsubmit:focus {
+    outline: none;
+}
+.emailenter:focus {
+    outline: none;
+    margin-right: 0;
+}
+
+h5 {
+font-weight: 300;
+font-size: 18px;
+text-align: center;
+}
+
+h6 {
+    font-size: 16px;
+    align-items: center;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
+
+.navbar-light .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 22.5px;
+    align-items: center;
+}
+.stepsgreet {
+    padding-top: 55px;
+    padding-bottom: 78px;
+}
+.steps{
+    padding-bottom: 79px;
+}
+.discover{
+    padding-top: 126px;
+    padding-bottom: 109px;
+}
+#startsign{
+    display:block;
+    text-align: center;
+}
+.welcome{
+    padding-top: 68px;
+    padding-bottom: 56px;
+}
+.foot{
+    padding-top: 39px;
+    padding-bottom: 72px;
+    padding-left: 76px;
+}

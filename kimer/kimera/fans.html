@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function () { $("#header").load("navbar.html"); });
+        $(function () { $("#footer").load("footer.html"); });
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+    <main>
+        <h1 class="welcome">Be first to discover the next big creators, tailored for you.</h1>
+        <div class="discover">
+            <div class="col submitter">
+                <h2>
+                    &#8594;<br>Curated discovery, right to your inbox.
+                </h2>
+                <h3>
+                    Hidden-gem creators. Early access.<br>No algorithms or third-party ads. Every platform.
+                </h3>
+                <button class="buttontext apply" type='submit'>Get Started</button>
+            </div>
+        </div>
+        <div class="col">
+            <img class="fanimage" src="fanpage.png" alt="Cool Creators">
+        </div>
+
+        <div class="tint">
+            <h1 class="stepsgreet">Find your creators...</h1>
+            <div class="row steps">
+                <div class="col-lg">
+                    <img class="icon" src="email.png" alt="email">
+                    <h1>Step One</h1>
+                    <h3>Enter your email address where you'd like to discover new creators.</h3>
+                </div>
+                <div class="col-lg">
+                    <img class="icon" src="heart.png" alt="heart">
+                    <h1 class="announce">Step Two</h1>
+                    <h3>Tell us what you're passionate about. This helps us personalize your discovery.</h3>
+                </div>
+                <div class="col-lg">
+                    <img class="icon" src="game.png" alt="passions">
+                    <h1>Step Three</h1>
+                    <h3>We send you a weekly roundup of up-and-coming creators you'll love, and you'll make their dreams come true.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container discover">
+            <h1>Ready to discover?</h1>
+            <h5>Let us deliver the next big creators to you before anyone else. </h5>
+            <form id="startsign">
+                <input class="emailenter" autocomplete='off' placeholder="Enter your email..." autofocus type='text'>
+                <button class="emailsubmit buttontext" type='submit'>Get Started</button>
+            </form>
+        </div>
+        <div id="footer"></div>
+    </main>
+</body>
+</html>
