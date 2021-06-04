@@ -9,11 +9,13 @@
 }
 
 .buttontext {
-    background: rgba(255, 0, 0, 0.7);
-    align-items: center;
+    background: rgba(255, 0, 0, 0.8);
+    align-items: left;
     text-align: center;
     color: white;
     border: none;
+    float: left;
+    margin-left: 5%;
 }
 
 .apply {
@@ -21,23 +23,28 @@
     font-size: 17.5px;
     width: 453px;
     height: 55px;   
-    letter-spacing: 0.002em;
+    letter-spacing: 0.003em;
 }
 
-.icon{
+.icon {
     height: 65px;
     width: auto;
 }
-.find{
+.find {
     margin-top: 55px;
     margin-bottom: 20px;
     margin-left: 529px;
     margin-right: 529px;
 }
-.col .fanimage {
+/* .col .fanimage {
     width: 486px;
     height: auto;
     margin:0px;
+} */
+
+.col .fanimage {
+    width: 486px;
+    height: 512px;
 }
 
 .col .creatorimage {
@@ -65,20 +72,25 @@ h1 {
     text-align: center;
 }
 h2 {
+    font-weight: normal; 
     font-size: 30px;
-    align-items: center;
+    text-align: left;
+    padding-left: 5%;
 }
-.submitter{
-    padding-left: 175px;
+
+h3 {
+    font-weight: 200 !important;
+    font-size: 22.5px !important;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.submitter {
+    padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 252px;
 }
-h3 {
-    font-weight: 200 !important;
-    font-size: 22.5px !important;
-    }
-
 .navbar .navbar-light .nav-link {
     color: black;
     font-size: 22.5px;
@@ -97,8 +109,7 @@ html {
     text-align: center;
 }
 
-.greetpic
-{
+.greetpic {
    max-width: 50%;
    height: auto;
 
@@ -158,12 +169,13 @@ a:hover{
     padding-top: 55px;
     padding-bottom: 78px;
 }
-.steps{
+.steps {
     padding-bottom: 79px;
 }
+/* The discover css might not be necessary? */
 .discover{
-    padding-top: 126px;
-    padding-bottom: 109px;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 #startsign{
     display:block;
@@ -177,4 +189,8 @@ a:hover{
     padding-top: 39px;
     padding-bottom: 72px;
     padding-left: 76px;
+}
+
+.center {
+    text-align: center;
 }
