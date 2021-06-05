@@ -1,4 +1,4 @@
-/*navigation bar  */
+ /*navigation bar  */
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: red;
     font-style: italic;
@@ -7,14 +7,17 @@
     font-weight: normal;
     text-decoration: none;
 }
+.footerstyle {
+    margin-left: 5px;
+}
+
+/*sign up buttons*/
 
 .buttontext {
     background: rgba(255, 0, 0, 0.8);
-    align-items: left;
     text-align: center;
     color: white;
     border: none;
-    float: left;
     margin-left: 5%;
 }
 
@@ -24,6 +27,7 @@
     width: 453px;
     height: 55px;   
     letter-spacing: 0.003em;
+    
 }
 
 .icon {
@@ -36,20 +40,18 @@
     margin-left: 529px;
     margin-right: 529px;
 }
-/* .col .fanimage {
-    width: 486px;
-    height: auto;
-    margin:0px;
-} */
 
-.col .fanimage {
-    width: 486px;
-    height: 512px;
+#fanimage {
+    width: 470px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 40px;
 }
 
-.col .creatorimage {
-    width: 621px; 
-    height: 430px;
+#creatorimage {
+    width: 90%;
+    height: auto;
+    padding-bottom: 40px;
 }
 
 .col-lg {
@@ -57,7 +59,8 @@
     line-height: 125%;
     align-items: center;
     text-align: center;
-    margin: 0px;
+    margin: 30px;
+    padding: 10px;
 }
 .navbar .navbar-expand-sm .navbar-light {
     padding: 5%
@@ -65,24 +68,18 @@
 .tint {
     background-color: rgba(255, 0, 0, 0.1);
 }
-h1 {
-    font-weight: bold;
-    font-size: 160%;
-    align-items: center;
-    text-align: center;
-}
-h2 {
-    font-weight: normal; 
-    font-size: 30px;
-    text-align: left;
-    padding-left: 5%;
-}
 
-h3 {
-    font-weight: 200 !important;
-    font-size: 22.5px !important;
-    text-align: left;
-    padding-left: 5%;
+.thanks {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.thanksfan {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .submitter {
@@ -91,22 +88,27 @@ h3 {
     padding-top: 0px;
     padding-bottom: 252px;
 }
-.navbar .navbar-light .nav-link {
-    color: black;
-    font-size: 22.5px;
-}
-.navbar .navbar-light .nav-link .active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: red;
+
+.navbar-nav .active a, .navbar-light .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     text-decoration: underline;
     font-size: 22.5px;
+    color: red;
 }
 
+.left{
+    text-align:left;
+}
+.centered{
+    padding-top:20%;
+    padding-left:20%;
+}
 html {
     font-style: normal;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .greetpic {
@@ -116,8 +118,8 @@ html {
 }
 
 .emailenter {
-    width: 396px;
-    height: 60px;
+    width: 60%;
+    height: 100%;
     background: #FFFFFF;
     border: 1px solid rgba(255, 0, 0, 0.5);
     box-sizing: border-box;
@@ -127,8 +129,8 @@ html {
 }
 
 .emailsubmit {
-    width: 153px;
-    height: 60px;
+    width: 23%;
+    height: 100%;
     align-items: center;
     border-radius: 0px 10px 10px 0px;
     margin-left: -50px;
@@ -141,30 +143,55 @@ html {
     margin-right: 0;
 }
 
+/*header styling*/
+h1 {
+    font-weight: bold;
+    font-size: 160%;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 22.5px;
+    text-align: center;
+}
+
 h5 {
 font-weight: 300;
 font-size: 18px;
 text-align: center;
+width: 85%;
 }
 
 h6 {
     font-size: 16px;
     align-items: center;
+    margin-left: 25px;
 }
 
 a{
     color: black;
 }
-
+.thankslink{
+   text-decoration: underline;
+}
 a:hover{
     color:red;
 }
 
-.navbar-light .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: black;
     font-size: 22.5px;
     align-items: center;
 }
+/*steps*/
+
 .stepsgreet {
     padding-top: 55px;
     padding-bottom: 78px;
@@ -172,14 +199,16 @@ a:hover{
 .steps {
     padding-bottom: 79px;
 }
-/* The discover css might not be necessary? */
+
 .discover{
     padding-top: 8%;
     padding-bottom: 8%;
+    text-align: center;
 }
-#startsign{
+.startsign{
     display:block;
     text-align: center;
+    height: 35%;
 }
 .welcome{
     padding-top: 68px;
@@ -191,6 +220,13 @@ a:hover{
     padding-left: 76px;
 }
 
-.center {
-    text-align: center;
+hr {
+    border-width: 1px; 
+    border-color: black; 
+    width: 30%; 
+    float: left; 
+    margin:auto;
 }
+
+
+ 
