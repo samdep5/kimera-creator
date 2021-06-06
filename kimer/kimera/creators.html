@@ -2,35 +2,48 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link href="favicon-kimera.png" rel="icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link href="styles.css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(function () { $("#header").load("navbar.html"); });
-        $(function () { $("#footer").load("footer.html"); });
-    </script>
-    <script>
-        $(function () { document.getElementById("creatorlink").style.color = "red"; });
-    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <title>kimera</title>
 </head>
 
 <body>
-
-    <div id="header"></div>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="fans.html">kimera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class=" active nav-link" href="fans.html">Fans<span class="sr-only">(active)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="active nav-link" href="creators.html">Creators</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <main>
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <h1 class="col-lg-8">An alternative to algorithmic discovery for aspiring creators.</h1>
-             </div>
-                
+            </div>
+
             <div class="row">
-                    
-                <div class="col-lg-7"> 
+
+                <div class="col-lg-7">
                     <div class="centered">
                         <h2>
                             &#8594;<br>Discover fans directly, right to their inbox.
@@ -57,41 +70,70 @@
             <h1 class="stepsgreet">Find your fans...</h1>
 
             <div class="row steps">
-                    <div class="col-lg">
-                        <img class="icon" src="profile.png" alt="profile">
-                        <h1>Step One</h1>
-                        <h3>Share some basic information about yourself as a creator. Describe your content, link your platforms, and tell your story.</h3>
-                    </div>
-
-                    <div class="col-lg">
-                        <img class="icon" src="search.png" alt="search">
-                        <h1>Step Two</h1>
-                        <h3>We’ll review weekly applications to match the best creators to passionate fans. If you’re selected, we’ll notify you. If not, feel free to apply again after 30 days.</h3>
-                    </div>
-
-                    <div class="col-lg">
-                        <img class="icon" src="rocket.png" alt="rocket">
-                        <h1>Step Three</h1>
-                        <h3>We connect you to your new fans waiting to make your dreams come true. Transcend the Algorithm and launch your views, fans, and business to the moon. </h3>
-                    </div>
-
+                <div class="col-lg">
+                    <img class="icon" src="profile.png" alt="profile">
+                    <h1>Step One</h1>
+                    <h3>Share some basic information about yourself as a creator. Describe your content, link your platforms, and tell your story.</h3>
                 </div>
+
+                <div class="col-lg">
+                    <img class="icon" src="search.png" alt="search">
+                    <h1>Step Two</h1>
+                    <h3>We’ll review weekly applications to match the best creators to passionate fans. If you’re selected, we’ll notify you. If not, feel free to apply again after 30 days.</h3>
+                </div>
+
+                <div class="col-lg">
+                    <img class="icon" src="rocket.png" alt="rocket">
+                    <h1>Step Three</h1>
+                    <h3>We connect you to your new fans waiting to make your dreams come true. Transcend the Algorithm and launch your views, fans, and business to the moon. </h3>
+                </div>
+
             </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-6 discover">
                 <h1>Join the movement.</h1>
-                <h5>Kimera is on a mission to bring the dreams of a million creators to life. 
-                Become a part of the journey and stay updated on our cutting-edge developments
-                as we build the home of the creator economy. </h5>
-                
+                <h5>
+                    Kimera is on a mission to bring the dreams of a million creators to life.
+                    Become a part of the journey and stay updated on our cutting-edge developments
+                    as we build the home of the creator economy.
+                </h5>
+
                 <form class="startsign">
                     <input class="emailenter" autocomplete='off' placeholder="Enter your email..." autofocus type='text'>
                     <button class="emailsubmit buttontext" type='submit'>Join</button>
                 </form>
-                    
+
             </div>
         </div>
-</main>
-    <div id="footer"></div>
+    </main>
+    <div class="foot tint">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" href="fans.html">kimera</a>
+            <ul id="footer-nav" class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fans.html">Fans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="creators.html">Creators</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:team@getkimera.com">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <h6>
+                <a href="privacy.html">Privacy</a>
+                //
+                <a href="terms.html"> Terms of Service</a>
+                <br>
+                &#169;2021 Kimera.
+            </h6>
+        </div>
+    </div>
 </body>
 </html>

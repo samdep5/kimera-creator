@@ -2,23 +2,39 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link href="favicon-kimera.png" rel="icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link href="styles.css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(function () { $("#header").load("navbar.html"); });
-        $(function () { $("#footer").load("footer.html"); });
-    </script>
-
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <title>kimera</title>
 </head>
 
 <body>
-    <div id="header"></div>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="fans.html">kimera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a id="fanlink" class=" active nav-link" href="fans.html">Fans<span class="sr-only">(active)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a id="creatorlink" class="nav-link" href="creators.html">Creators</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <main>
         <h1 style="margin: 5%;">A bit about us</h1>
         <div class="container">
@@ -28,29 +44,56 @@
             <hr><br>
             <div class="row">
                 <div class="col-lg-8">
-                <p>
-                    We offer a discovery engine to empower the dreams of creators by connecting them with their fans authentically that no other platform can.
-                    <br><br>
-                    Our founding team is a scrappy group of writers, video creators, and innovators based in Cambridge, Massachusetts, as Harvard sophomores. We've spent most of 2021 venturing across the country to traverse the creator economy&#8212; from the coast of Oregon and the plains of Texas to the streets of LA and Boston.
-                    <br><br>
-                    Before Kimera, we were launching Boundless Media, a YouTube startup that filmed wild challenges and our travel around America.
-                    <br><br>
-                    This experience changed everything.
-                    <br><br>
-                    When we crashed our car after filming in a blizzard, we realized creators need a better way to connect with fans. The drive for discovery by "gaming the algorithm" through sensationalist content was unsustainable&#8212;and life-threatening.
-                    <br><br>
-                    And so Kimera was born: an engine to help aspiring creators achieve the dream we almost lost everything for. A dream to create stories that reach a passionate audience and build a relationship with fans to form the foundation of any creative career.
-                    <br><br>
-                    And at Kimera, we have never stopped creating&#8212;from vlogging our company's growth story on our YouTube channel to writing books on the creator economy.
-                    <br><br>
-                    As we build the future of creation, we never deviate from our First Principles: people over platforms, aligned incentives, and transparent simplicity&#8212;all under the notion that together we are boundless.
-                </p>
-            </div>
+                    <p>
+                        We offer a discovery engine to empower the dreams of creators by connecting them with their fans authentically that no other platform can.
+                        <br><br>
+                        Our founding team is a scrappy group of writers, video creators, and innovators based in Cambridge, Massachusetts, as Harvard sophomores. We've spent most of 2021 venturing across the country to traverse the creator economy&#8212; from the coast of Oregon and the plains of Texas to the streets of LA and Boston.
+                        <br><br>
+                        Before Kimera, we were launching Boundless Media, a YouTube startup that filmed wild challenges and our travel around America.
+                        <br><br>
+                        This experience changed everything.
+                        <br><br>
+                        When we crashed our car after filming in a blizzard, we realized creators need a better way to connect with fans. The drive for discovery by "gaming the algorithm" through sensationalist content was unsustainable&#8212;and life-threatening.
+                        <br><br>
+                        And so Kimera was born: an engine to help aspiring creators achieve the dream we almost lost everything for. A dream to create stories that reach a passionate audience and build a relationship with fans to form the foundation of any creative career.
+                        <br><br>
+                        And at Kimera, we have never stopped creating&#8212;from vlogging our company's growth story on our YouTube channel to writing books on the creator economy.
+                        <br><br>
+                        As we build the future of creation, we never deviate from our First Principles: people over platforms, aligned incentives, and transparent simplicity&#8212;all under the notion that together we are boundless.
+                    </p>
                 </div>
+            </div>
             <hr><br>
             <p style="color: red;margin-bottom: 20%;">Team Kimera</p>
         </div>
     </main>
-    <div id="footer"></div>
+    <div class="foot tint">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" href="fans.html">kimera</a>
+            <ul id="footer-nav" class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fans.html">Fans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="creators.html">Creators</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:team@getkimera.com">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <h6>
+                <a href="privacy.html">Privacy</a>
+                //
+                <a href="terms.html"> Terms of Service</a>
+                <br>
+                &#169;2021 Kimera.
+            </h6>
+        </div>
+    </div>
 </body>
 </html>

@@ -7,12 +7,38 @@
     font-weight: normal;
     text-decoration: none;
 }
-.footerstyle {
-    margin-left: 5px;
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    text-decoration: underline;
+    font-size: 22.5px;
+    color: red;
+}
+
+.navbar-nav > .active > a {
+    color: red;
+    text-decoration: underline;
+}
+a {
+    color: black;
+}
+
+.thankslink {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 22.5px;
+    align-items: center;
 }
 h2 .bold{
     font-weight: bold;
 }
+
 /*sign up buttons*/
 
 .typeform-share {
@@ -44,15 +70,9 @@ h2 .bold{
     height: 65px;
     width: auto;
 }
-.find {
-    margin-top: 55px;
-    margin-bottom: 20px;
-    margin-left: 529px;
-    margin-right: 529px;
-}
 
 #fanimage {
-    width: 470px;
+    width: 90%;
     height: auto;
     padding: 20px;
     padding-bottom: 40px;
@@ -68,9 +88,8 @@ h2 .bold{
     text-align: center;
     line-height: 125%;
     align-items: center;
-    text-align: center;
-    margin: 30px;
-    padding: 10px;
+    /* margin: 30px;
+    padding: 10px;*/
 }
 .navbar .navbar-expand-sm .navbar-light {
     padding: 5%
@@ -79,7 +98,7 @@ h2 .bold{
     background-color: rgba(255, 0, 0, 0.1);
 }
 
-.thanks {
+.thankscreator {
     padding-top: 7%;
     padding-bottom: 7%;
     padding-left: 10%;
@@ -92,19 +111,6 @@ h2 .bold{
     padding-right: 10%;
 }
 
-.submitter {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 252px;
-}
-
-.navbar-nav .active a, .navbar-light .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    text-decoration: underline;
-    font-size: 22.5px;
-    color: red;
-}
-
 .left{
     text-align:left;
 }
@@ -112,19 +118,12 @@ h2 .bold{
     padding-top:15%;
     padding-left:20%;
 }
+
 html {
-    font-style: normal;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 25px;
-    font-weight: normal;
     text-align: center;
     overflow-x: hidden;
-}
-
-.greetpic {
-   max-width: 50%;
-   height: auto;
-
 }
 
 .emailenter {
@@ -162,7 +161,6 @@ h1 {
 }
 
 h2 {
-    font-weight: normal;
     font-size: 35px;
 }
 
@@ -185,21 +183,7 @@ h6 {
     margin-left: 25px;
 }
 
-a{
-    color: black;
-}
-.thankslink{
-   text-decoration: underline;
-}
-a:hover{
-    color:red;
-}
 
-.navbar-light .navbar-nav .nav-link {
-    color: black;
-    font-size: 22.5px;
-    align-items: center;
-}
 /*steps*/
 
 .stepsgreet {
@@ -220,10 +204,7 @@ a:hover{
     text-align: center;
     height: 35%;
 }
-.welcome{
-    padding-top: 68px;
-    padding-bottom: 56px;
-}
+
 .foot{
     padding-top: 39px;
     padding-bottom: 72px;
