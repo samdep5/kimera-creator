@@ -14,7 +14,6 @@
     color: red !important;
 }
 
-
 a {
     color: black;
 }
@@ -58,11 +57,12 @@ h2 .bold{
     letter-spacing: 0.03em;
     font-size: 17.5px;
 }
-    .typeform-share:hover, .typeform-share:focus {
-        color: white;
-        text-decoration: none;
-        background-color: rgba(255, 0, 0, 0.9);
-    }
+
+.typeform-share:hover, .typeform-share:focus {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.9);
+}
 
 .icon {
     height: 65px;
@@ -92,6 +92,7 @@ h2 .bold{
 .navbar .navbar-expand-sm .navbar-light {
     padding: 5%
 }
+
 .tint {
     background-color: rgba(255, 0, 0, 0.1);
 }
