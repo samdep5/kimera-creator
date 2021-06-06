@@ -8,10 +8,27 @@
     text-decoration: none;
 }
 
-.navbar-custom .nav-item.active .nav-link, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+/* .navbar-custom .nav-item.active, .navbar-light .navbar-nav .nav-link:focus {
     text-decoration: underline;
     font-size: 22.5px;
     color: red !important;
+} */
+
+.active {
+    font-size: 22.5px;
+    color: red !important;
+    padding-bottom: 0.5px;
+    border-bottom: 2px solid red;
+}
+
+.visited {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    padding-bottom: 0.5px;
+    border-bottom: 2px solid black;
+    color: black !important;
 }
 
 a {
