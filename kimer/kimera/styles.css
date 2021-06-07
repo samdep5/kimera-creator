@@ -14,25 +14,26 @@
     color: red !important;
 } */
 
-.active {
-    font-size: 22.5px;
-    padding-bottom: 0.5px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-bottom: 3px solid red;
-    color: red !important;
+.navbar-light .navbar-nav .nav-link {
+    padding: 0;
+    margin: 10px;
 }
 
-/* .visited {
-    color: black;
-} */
-
 .navbar-light .navbar-nav .nav-link:hover {
-    padding-bottom: 0.5px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
     border-bottom: 3px solid black;
-    color: black !important;
+    color: black;
+}
+
+.active, .active:hover {
+    font-size: 22.5px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 3px solid red !important;
+    color: red !important;
 }
 
 a {
