@@ -66,7 +66,7 @@ h2 .bold{
     height: 55px;
     padding: 0px;
     border-radius: 10px;
-    width: 70%;
+    width: 85%;
     white-space: nowrap;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
@@ -81,6 +81,13 @@ h2 .bold{
     background-color: rgba(255, 0, 0, 0.9);
 }
 
+.ready{
+    margin-left: 7%;
+}
+.leftover{
+    margin-left:19%;
+}
+
 .icon {
     height: 65px;
     width: auto;
@@ -92,14 +99,11 @@ h2 .bold{
     margin-top: -5%;
     margin-left: 20%;
     padding-bottom: 40px;
+    z-index:1;
 }
 
 .left {
     margin-left: -.5%;
-}
-
-.left{
-margin-left:-.5%;
 }
 
 #creatorimage {
@@ -183,6 +187,7 @@ h1 {
     font-size: 160%;
     align-items: center;
     text-align: center;
+    z-index:2;
 }
 
 h2 {
@@ -202,6 +207,7 @@ font-weight: 300;
 font-size: 18px;
 text-align: center;
 width: 75%;
+margin-left: 12%;
 }
 
 h6 {
