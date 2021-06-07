@@ -16,18 +16,22 @@
 
 .active {
     font-size: 22.5px;
-    color: red !important;
     padding-bottom: 0.5px;
-    border-bottom: 2px solid red;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 3px solid red;
+    color: red !important;
 }
 
-.visited {
+/* .visited {
     color: black;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link:hover {
     padding-bottom: 0.5px;
-    border-bottom: 2px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 3px solid black;
     color: black !important;
 }
 
