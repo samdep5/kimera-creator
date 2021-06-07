@@ -52,8 +52,41 @@ h2 .bold{
 }
 
 /*sign up buttons*/
+.popup{
+    margin-left:0px;
+    margin:5%, 0px;
+}
 
-.typeform-share {
+.row .col-lg-6 .centered #getstartedfan, #getstartedbottom{
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    cursor: pointer;
+    line-height: 57.5px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10%;
+    margin-right: 60%;
+    height: 55px;
+    padding: 0px;
+    border-color: rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    outline: none;
+    letter-spacing: 0.03em;
+    font-size: 17.5px;
+}
+#getstartedbottom {
+    margin-left: 8%;
+}
+.row .col-lg-6 .centered #getstartedfan:hover, #getstartedbottom:hover {
+    background-color: red;
+}
+.typeform-share{
     display: inline-block;
     background-color: rgba(255, 0, 0, 0.7);
     color: white;
