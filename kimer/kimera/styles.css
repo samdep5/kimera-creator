@@ -8,12 +8,6 @@
     text-decoration: none;
 }
 
-/* .navbar-custom .nav-item.active, .navbar-light .navbar-nav .nav-link:focus {
-    text-decoration: underline;
-    font-size: 22.5px;
-    color: red !important;
-} */
-
 .navbar-light .navbar-nav .nav-link {
     padding: 0;
     margin: 10px;
