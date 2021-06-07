@@ -89,8 +89,17 @@ h2 .bold{
 #fanimage {
     width: 80%;
     height: auto;
-    padding: 20px;
+    margin-top: -5%;
+    margin-left: 20%;
     padding-bottom: 40px;
+}
+
+.left {
+    margin-left: -.5%;
+}
+
+.left{
+margin-left:-.5%;
 }
 
 #creatorimage {
