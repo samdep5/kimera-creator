@@ -210,23 +210,40 @@ nav .navbar .navbar-expand-sm .navbar-light .spread{
 }
 
 .thankscreator {
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 5%;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 5%;
+    margin-bottom:1%;
 }
 .thanksfan {
     padding-top: 8%;
-    padding-bottom: 8%;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 10;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 1%;
+}
+.tab{
+    width:50px;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.bottomtab {
+    width: 25px;
+    height: auto;
+    margin-right:.5%;
 }
 .social{
     text-align:center;
-
+    margin-top:3%;
 }
-
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .left{
     text-align:left;
 }
@@ -242,9 +259,14 @@ html {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 25px;
     text-align: center;
-    overflow-x: hidden !important;
+}
+html, body {
+    overflow-x: hidden;
 }
 
+body {
+    position: relative;
+}
 .emailenter {
     width: 60%;
     height: 100%;
@@ -336,7 +358,8 @@ h6 {
 .foot{
     padding-top: 39px;
     padding-bottom: 72px;
-    padding-left: 76px;
+    padding-left: 60px;
+    width:100%;
 }
 
 hr {
@@ -350,13 +373,7 @@ hr {
 .push{
     margin-bottom: 5%;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    margin-top:15%;
-    width: 100%;
-}
+
 
 @media (max-width: 992px) {
     .welcome {
@@ -400,8 +417,8 @@ hr {
 
 @media (max-width: 769px) {
     .thanksfan {
-        padding-top: 15%;
-        padding-bottom: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         padding-left: 10%;
         padding-right: 10%;
         width: 100%;
@@ -417,7 +434,10 @@ hr {
         margin-bottom:0%;
         display:inline;
     }
-
+    .spacing{
+        margin-bottom:0%;
+        margin-top:0%;
+    }
     h2 {
         font-weight: 200;
         font-size: 22.5px;
@@ -425,7 +445,7 @@ hr {
         width: 90%;
         margin-left: 0%;
         margin-right: 0%;
-        line-height: normal;
+        margin:0% !important;
         display: inline !important;
     }
 
