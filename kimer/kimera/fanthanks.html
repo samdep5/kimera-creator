@@ -19,18 +19,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <a class="navbar-brand" href="fans.html">kimera</a>
+    <nav class="navbar navbar-expand-sm navbar-light spread">
+        <a class="navbar-brand" href="fans.html"><img class="headicon" src="kimera.png" alt="kimera"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a id="fanlink" class=" active nav-link" href="fans.html">Fans<span class="sr-only">(active)</span></a>
+                    <a class="nav-link" href="fans.html">Fans</a>
                 </li>
                 <li class="nav-item">
-                    <a id="creatorlink" class="nav-link" href="creators.html">Creators</a>
+                    <a class="nav-link" href="creators.html">Creators</a>
                 </li>
             </ul>
         </div>
@@ -38,15 +38,21 @@
     <main>
         <div class="container thanksfan">
             <h1>
-                Thank you! Your email with your first creator is on its way.
+                Thank you! Your key to new creators is on its way.
             </h1>
-            <h3>Didn’t receive it? Check your spam or <a class="thankslink" href="mailto:team@getkimera.com">let us know</a>!</h3>
-        </div>
+            <div class="thanks">
+                <h3>Didn’t receive it? Check your spam or <a class="thankslink" href="mailto:team@getkimera.com">let us know</a>!</h3>
+            </div>
+            <div class="social">
+                <img source="instacolor.png" alt="Instagram">
+                <img source="twitter-color.png" alt="Twitter">
+                <img source="youtube-color.png" alt="YouTube">
+            </div>
     </main>
 
-    <div class="foot tint">
+    <div class="footer foot tint">
         <nav class="navbar navbar-expand-sm navbar-light">
-            <a class="navbar-brand" href="fans.html">kimera</a>
+            <a class="navbar-brand" href="fans.html"><img class="footicon" src="kimera.png" alt="kimera"></a>
             <ul id="footer-nav" class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
@@ -63,12 +69,32 @@
             </ul>
         </nav>
         <div>
-            <h6>
+            <table class="mobilefoot">
+                <tr>
+                    <td class="mobilelink">
+                        <a href="fans.html">Fans</a>
+                    </td>
+                    <td class="mobilelink">
+                        <a href="creators.html">Creators</a>
+                    <td>
+                </tr>
+                <tr>
+                    <td class="mobilelink">
+                        <a href="about.html">About</a>
+                    </td>
+                    <td class="mobilelink">
+                        <a href="mailto:team@getkimera.com">Contact Us</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h6 class="footinfo">
                 <a href="privacy.html">Privacy</a>
                 //
                 <a href="terms.html"> Terms of Service</a>
                 <br>
-                &#169;2021 Kimera.
+                @2021 Kimera.
             </h6>
         </div>
     </div>

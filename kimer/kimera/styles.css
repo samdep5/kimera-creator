@@ -1,31 +1,57 @@
  /*navigation bar  */
-.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: red;
-    font-style: italic;
-    font-size: 200%;
-    line-height: 60px;
-    font-weight: normal;
-    text-decoration: none;
+.mobilefoot {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    visibility: hidden;
+    position:absolute;
+}
+.navbar-light .navbar-toggler, button .navbar-light .navbar-toggler .collapsed:focus, [type="button"]:focus {
+    outline: none;
+    border-color: white;
+}
+
+.headicon{
+    height: auto;
+    width:175px;
+    margin:22%;
+    margin-bottom: 20px;
+}
+.thanks{
+    margin-left:0%;
+    text-align:center !important;
+}
+.space{
+    margin-bottom:2%;
+}
+.footicon {
+    height: auto;
+    width: 175px;
+    margin-left: -12%;
 }
 
 .navbar-light .navbar-nav .nav-link {
     padding: 0;
     margin: 10px;
+    border: 3px solid transparent;
+    border-radius: 3.5px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    padding-bottom: 1px;
-    padding-left: 0;
-    padding-right: 0;
-    border-bottom: 3px solid black;
-    color: black;
-}
+    .navbar-light .navbar-nav .nav-link:hover {
+        padding-bottom: 1px;
+        padding-left: 0px;
+        padding-right: 0;
+        border-bottom: 3px solid black;
+        border-radius: 3.5px;
+        color: black;
+    }
 
 .active, .active:hover {
     font-size: 22.5px;
     padding-bottom: 1px;
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 3px;
     border-bottom: 3px solid red !important;
     color: red !important;
 }
@@ -47,9 +73,6 @@ a:hover {
     font-size: 22.5px;
     align-items: center;
 }
-h2 .bold{
-    font-weight: bold;
-}
 
 /*sign up buttons*/
 .popup{
@@ -57,54 +80,64 @@ h2 .bold{
     margin:5%, 0px;
 }
 
-.row .col-lg-6 .centered #getstartedfan, #getstartedbottom{
+.row .col-lg-6 .centered #getstartedfan, #getstartedbottom {
     display: inline-block;
     background-color: rgba(255, 0, 0, 0.7);
     color: white;
     cursor: pointer;
-    line-height: 57.5px;
     text-align: center;
+    font-weight: bold;
     margin: 0;
-    margin-bottom: 10%;
+    margin-top: 6%;
+    margin-left:-1%;
+    line-height: 50.5px;
     margin-right: 60%;
     height: 55px;
     padding: 0px;
-    border-color: rgba(255, 0, 0, 0.5);
     border-radius: 10px;
-    width: 85%;
+    width:100%;
     white-space: nowrap;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    outline: none;
     letter-spacing: 0.03em;
     font-size: 17.5px;
+    border-color: rgba(255, 0, 0, 0.5);
+    margin-bottom: 15%;
 }
-#getstartedbottom {
-    margin-left: 8%;
+#getstartedbottom{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom:0%;
 }
 .row .col-lg-6 .centered #getstartedfan:hover, #getstartedbottom:hover {
     background-color: red;
 }
-.typeform-share{
+.typeform-share {
+    margin-top: 8%;
     display: inline-block;
     background-color: rgba(255, 0, 0, 0.7);
     color: white;
     cursor: pointer;
-    line-height: 57.5px;
     text-align: center;
+    font-weight: bold;
+    line-height: 50px;
     margin: 0;
+    margin-top: 3%;
+    margin-left: -1%;
     margin-right: 60%;
     height: 55px;
     padding: 0px;
     border-radius: 10px;
-    width: 85%;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.03em;
     font-size: 17.5px;
+    margin-bottom: 10%;
 }
 
 .typeform-share:hover, .typeform-share:focus {
@@ -121,17 +154,30 @@ h2 .bold{
 }
 
 .icon {
-    height: 65px;
+    height: 70px;
     width: auto;
+    margin-bottom:45px;
+}
+
+.game {
+    height: 85px;
+    width: auto;
+    margin-bottom:30px;
+}
+
+nav .navbar .navbar-expand-sm .navbar-light .spread{
+    padding-top: 50px;
 }
 
 #fanimage {
-    width: 80%;
+    width: 60%;
     height: auto;
     margin-top: -5%;
     margin-left: 20%;
+    margin-right: 1%;
     padding-bottom: 40px;
-    z-index:1;
+    padding-top: 30%
+    z-index: 1;
 }
 
 .left {
@@ -142,21 +188,25 @@ h2 .bold{
     width: 100%;
     height: auto;
     padding-bottom: 40px;
+    padding-right:8%;
+    margin-top:-1%;
 }
 
 .col-lg {
     text-align: center;
     line-height: 125%;
     align-items: center;
-    /* margin: 30px;
-    padding: 10px;*/
+    margin-bottom: 25px;
 }
 .navbar .navbar-expand-sm .navbar-light {
     padding: 5%
 }
-
+.bold{
+    font-weight: bold;
+}
 .tint {
-    background-color: rgba(255, 0, 0, 0.1);
+    padding-top:2%;
+    background-color: rgba(255, 0, 0, 0.05);
 }
 
 .thankscreator {
@@ -170,21 +220,29 @@ h2 .bold{
     padding-bottom: 8%;
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 10;
+}
+.social{
+    text-align:center;
+
 }
 
 .left{
     text-align:left;
 }
 .centered{
-    padding-top:10%;
+    padding-top:15%;
     padding-left:20%;
+    margin-right:100px;
+    width:95%
+
 }
 
 html {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 25px;
     text-align: center;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .emailenter {
@@ -216,22 +274,25 @@ html {
 /*header styling*/
 h1 {
     font-weight: bold;
-    font-size: 160%;
+    font-size: 40px;
     align-items: center;
     text-align: center;
     z-index:2;
 }
-
 h2 {
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: .5%;
+    font-weight: 300;
+    display:inline;
 }
-
 h3 {
     font-weight: 200;
-    font-size: 27px;
+    font-size: 22.5px !important;
     text-align: center;
-    width:90%;
-    margin-left: 5%;
+    margin-bottom:.5%;
+    line-height: 110%;
+    display:block;
 }
 
 h5 {
@@ -245,7 +306,7 @@ margin-left: 12%;
 h6 {
     font-size: 16px;
     align-items: center;
-    margin-left: 25px;
+    margin-top: -1%;
 }
 
 
@@ -256,13 +317,15 @@ h6 {
     padding-bottom: 78px;
 }
 .steps {
-    padding-bottom: 79px;
+    padding-bottom: 5.5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .discover{
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 9%;
     text-align: center;
+    padding-bottom: 9%
 }
 .startsign{
     display:block;
@@ -282,7 +345,164 @@ hr {
     width: 30%; 
     float: left; 
     margin:auto;
+    display:block;
+}
+.push{
+    margin-bottom: 5%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top:15%;
+    width: 100%;
 }
 
+@media (max-width: 992px) {
+    .welcome {
+        margin-left: 10%;
+        margin-right:10%;
+    }
+    #getstartedbottom {
+        width:60%;
+    }
+        #fanimage {
+        width: 60%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 2%;
+    }
+    .row .col-lg-6 .centered #getstartedfan{
+        width: 100%;
+    }
+
+    .centered {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left:0%;
+        padding-top:0%;
+        width: 65%;
+    }
+
+
+    #creatorimage {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .typeform-share {
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) {
+    .thanksfan {
+        padding-top: 15%;
+        padding-bottom: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+    }
+    .welcome {
+       margin-left:8%;
+       margin-right:8%;
+        font-size: 35px;
+        margin-bottom: 0%;
+        margin-top: 5%;
+    }
+    .space{
+        margin-bottom:0%;
+        display:inline;
+    }
+
+    h2 {
+        font-weight: 200;
+        font-size: 22.5px;
+        text-align: center;
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 0%;
+        line-height: normal;
+        display: inline !important;
+    }
+
+    .centered {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top:-2%;
+        width: 75%;
+        text-align:center;
+    }
+    .row .col-lg-6 .centered #getstartedfan, .typeform-share {
+        padding: 0%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        display:block;
+    }
+
+    .headicon {
+        margin: 8%;
+    }
+
+    .arrow {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: -4%;
+        visibility: hidden;
+    }
+
+    .left {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .tint .navbar-light .navbar-nav .nav-link {
+        position: absolute;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: -4%;
+        visibility: hidden;
+    }
+
+        .tint .navbar-light .navbar-nav .nav-link:hover {
+            position:absolute;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-top: -4%;
+            visibility: hidden;
+        }
+
+    .headicon, .footicon {
+        width: 120px;
+        height: auto;
+    }
+
+    .footicon {
+        margin-left: -22%;
+    }
+
+    .mobilefoot {
+        visibility: visible;
+        width: 100%;
+        text-indent: 0%;
+        margin-bottom:2%;
+
+        position:static;
+    }
+    .mobilelink {
+        font-size: 22.5px;
+    }
 
  
+}

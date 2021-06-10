@@ -20,15 +20,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <a class="navbar-brand" href="fans.html">kimera</a>
+    <nav class="navbar navbar-expand-sm navbar-light spread">
+        <a class="navbar-brand" href="fans.html"><img class="headicon" src="kimera.png" alt="kimera"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active a-hover" href="fans.html">Fans</a>
+                    <a class="nav-link active" href="fans.html">Fans</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="creators.html">Creators</a>
@@ -40,22 +40,24 @@
         <div class="container-fluid">
 
             <div class="row justify-content-center">
-                <h1 class="col-lg-6">
-                    Be first to discover the next big creators, tailored for you.
+                <h1 class="col-lg-6 welcome">
+                    Curated discovery, right to your inbox.
                 </h1>
             </div>
 
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="centered">
-                        <h2>
-                            &#8594;<br>Curated discovery,<br>right to your inbox.
-                        </h2>
-
-                        <h3 class="left">
-                            Hidden-gem creators. Early access. No algorithms or third-party ads. Every platform.
-                        </h3>
-                        <button id="getstartedfan" type="button" data-toggle ="modal" data-target=".bd-example-modal-lg">GET STARTED</button>
+                    <div class="centered push">
+                        <div>
+                            <h2 class="arrow">
+                                &#8594;
+                            </h2>
+                        </div>
+                            <h2>
+                                Hidden-gem creators. Every platform.
+                            </h2>
+                            <h2>No algorithms. Tailored for you.</h2>
+                        <button id="getstartedfan" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">Get Started</button>
                         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
@@ -353,7 +355,7 @@
                                                 #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked ~ .label-description::before, #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked ~ .label-description::before, #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked ~ .custom-control-label::before, #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked ~ .custom-control-label::before, #mlb2-4217851.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked ~ .label-description::before {
                                                     border-color: #ff5e5e !important;
                                                     background-color: #ff5e5e !important;
-                                                    content:"" !important;
+                                                    content: "" !important;
                                                     color: #fff !important
                                                 }
 
@@ -802,22 +804,22 @@
                                                                 <div class="description">Highlighting the rising stars across all of Kimera</div>
                                                             </div>
                                                             <div><h6 class="popup">Kimera’s Best will be delivered to your inbox each week, where we highlight the rising stars across all creators. You’ll also receive selections from the Pubs you choose below, which curates up-and-coming creators for you.</h6></div>
-                                                            <div class="ml-form-interestGroupsRowCheckbox group" >
+                                                            <div class="ml-form-interestGroupsRowCheckbox group">
                                                                 <label> <input type="checkbox" name="groups[]" value="107561044"> <div class="label-description">The Artist</div> </label>
                                                                 <div class="description">Uncovering underground creatives doing big things.</div>
                                                             </div>
-                                                            <div class="ml-form-interestGroupsRowCheckbox group" >
+                                                            <div class="ml-form-interestGroupsRowCheckbox group">
                                                                 <label> <input type="checkbox" name="groups[]" value="107561047"> <div class="label-description">The Explorer</div> </label>
                                                                 <div class="description">Entering the lives and adventures of interesting people.</div>
                                                             </div>
-                                                            <div class="ml-form-interestGroupsRowCheckbox last-group" >
+                                                            <div class="ml-form-interestGroupsRowCheckbox last-group">
                                                                 <label> <input type="checkbox" name="groups[]" value="107561053"> <div class="label-description">The Player</div> </label><span style="content:'';"></span>
                                                                 <div class="description">Our curated gaming creators. Launching soon.</div>
                                                             </div>
                                                         </div>
                                                         <input type="hidden" name="ml-submit" value="1">
                                                         <div class="ml-form-embedSubmit">
-                                                            <button type="submit" class="primary">GET STARTED</button>
+                                                            <button type="submit" class="primary">Send me creators</button>
                                                             <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
                                                         </div>
                                                         <input type="hidden" name="anticsrf" value="true">
@@ -841,9 +843,9 @@
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
 
-                <div class="col-lg-5">
+                <div class="col-lg-6">
                     <div class="text-center">
                         <img id="fanimage" src="fanpage.png" alt="Cool Creators">
                     </div>
@@ -860,21 +862,21 @@
             <div class="row steps">
 
                 <div class="col-lg">
-                    <img class="icon" src="email.png" alt="email">
+                    <img class="icon" src="mailbox.png" alt="email">
                     <h1>Step One</h1>
                     <h3>Enter your email address where you'd like to discover new creators.</h3>
                 </div>
 
                 <div class="col-lg">
-                    <img class="icon" src="heart.png" alt="heart">
+                    <img class="icon" src="love.png" alt="heart">
                     <h1>Step Two</h1>
                     <h3>Tell us what you're passionate about. This helps us personalize your discovery.</h3>
                 </div>
 
                 <div class="col-lg">
-                    <img class="icon" src="game.png" alt="passions">
+                    <img class="game" src="creators.png" alt="creators">
                     <h1>Step Three</h1>
-                    <h3>We send you a weekly roundup of up-and-coming creators you’ll love, and you’ll make their dreams come true.</h3>
+                    <h3>We send you a roundup of up-and-coming creators you’ll love through our weekly Pubs.</h3>
                 </div>
             </div>
         </div>
@@ -883,7 +885,7 @@
             <div class="col-lg-6 discover">
                 <h1>Ready to discover?</h1>
                 <h5>Let us deliver the next big creators to you before anyone else. </h5>
-                <button id="getstartedbottom" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">GET STARTED</button>
+                <button id="getstartedbottom" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">Get Started</button>
                 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -924,7 +926,7 @@
                                                 </div>
                                                 <input type="hidden" name="ml-submit" value="1">
                                                 <div class="ml-form-embedSubmit">
-                                                    <button type="submit" class="primary">GET STARTED</button>
+                                                    <button type="submit" class="bold">Get Started</button>
                                                     <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
                                                 </div>
                                                 <input type="hidden" name="anticsrf" value="true">
@@ -941,10 +943,10 @@
                             </div>
                         </div>
                     </div>
-</main>
+    </main>
     <div class="foot tint">
         <nav class="navbar navbar-expand-sm navbar-light">
-            <a class="navbar-brand" href="fans.html">kimera</a>
+            <a class="navbar-brand" href="fans.html"><img class="footicon" src="kimera.png" alt="kimera"></a>
             <ul id="footer-nav" class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
@@ -960,13 +962,32 @@
                 </li>
             </ul>
         </nav>
+        <div >
+            <table class="mobilefoot">
+                <tr>
+                    <td class="mobilelink">
+                        <a href="fans.html">Fans</a>
+                    </td>
+                    <td class="mobilelink">
+                        <a  href="creators.html">Creators</a>
+                     <td>
+                    </tr><tr>
+                     <td class="mobilelink">
+                         <a href="about.html">About</a>
+                     </td>
+                    <td class="mobilelink">
+                            <a href="mailto:team@getkimera.com">Contact Us</a>
+                     </td>
+                </tr>
+            </table>
+        </div>
         <div>
-            <h6>
+            <h6 class="footinfo">
                 <a href="privacy.html">Privacy</a>
                 //
                 <a href="terms.html"> Terms of Service</a>
                 <br>
-                &#169;2021 Kimera.
+                @2021 Kimera.
             </h6>
         </div>
     </div>
