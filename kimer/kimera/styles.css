@@ -176,7 +176,6 @@ nav .navbar .navbar-expand-sm .navbar-light .spread{
     margin-left: 20%;
     margin-right: 1%;
     padding-bottom: 40px;
-    padding-top: 30%
     z-index: 1;
 }
 
@@ -222,6 +221,9 @@ nav .navbar .navbar-expand-sm .navbar-light .spread{
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 1%;
+}
+table{
+    text-align:center;
 }
 .tab{
     width:50px;
@@ -328,7 +330,6 @@ margin-left: 12%;
 h6 {
     font-size: 16px;
     align-items: center;
-    margin-top: -1%;
 }
 
 
