@@ -7,6 +7,10 @@
     visibility: hidden;
     position:absolute;
 }
+.hidden{
+    visibility: hidden;
+    margin-top: -10%
+}
 .navbar-light .navbar-toggler, button .navbar-light .navbar-toggler .collapsed:focus, [type="button"]:focus {
     outline: none;
     border-color: white;
@@ -393,7 +397,6 @@ hr {
 .push{
     margin-bottom: 5%;
 }
-
 
 @media (max-width: 992px) {
     .welcome {
