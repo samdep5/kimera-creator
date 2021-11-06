@@ -1,0 +1,557 @@
+
+ /*navigation bar  */
+.mobilefoot {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    visibility: hidden;
+    position:absolute;
+}
+.hidden{
+    visibility: hidden;
+    margin-top: -10%
+}
+.navbar-light .navbar-toggler, button .navbar-light .navbar-toggler .collapsed:focus, [type="button"]:focus {
+    outline: none;
+    border-color: white;
+}
+.navbar-light .toggle-button {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.headicon {
+    height: auto;
+    width: 175px;
+    margin: 22%;
+    margin-bottom: 20px;
+}
+.thanks{
+    margin-left:0%;
+    text-align:center !important;
+}
+.space{
+    margin-bottom:2%;
+}
+.footicon {
+    height: auto;
+    width: 175px;
+    margin-left: -12%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0;
+    margin: 10px;
+    border: 3px solid transparent;
+    border-radius: 3.5px;
+}
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        padding-bottom: 1px;
+        padding-left: 0px;
+        padding-right: 0;
+        border-bottom: 3px solid black;
+        border-radius: 3.5px;
+        color: black;
+    }
+
+.active, .active:hover {
+    font-size: 22.5px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 3px;
+    border-bottom: 3px solid red !important;
+    color: red !important;
+}
+
+a {
+    color: black;
+}
+
+.thankslink {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 22.5px;
+    align-items: center;
+}
+
+.row .col-lg-6 .centered #getstartedfan, #getstartedbottom {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 6%;
+    margin-left:-1%;
+    line-height: 50.5px;
+    margin-right: 60%;
+    height: 55px;
+    padding: 0px;
+    border-radius: 10px;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.03em;
+    font-size: 17.5px;
+    border-color: rgba(255, 0, 0, 0.5);
+    margin-bottom: 15%;
+}
+#getstartedbottom{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom:0%;
+}
+.row .col-lg-6 .centered #getstartedfan:hover, #getstartedbottom:hover {
+    background-color: red;
+}
+.typeform-share {
+    margin-top: 8%;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: -1%;
+    margin-right: 60%;
+    height: 55px;
+    padding: 0px;
+    border-radius: 10px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.03em;
+    font-size: 17.5px;
+    margin-bottom: 10%;
+}
+
+.typeform-share:hover, .typeform-share:focus {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.9);
+}
+
+.ready{
+    margin-left: 7%;
+}
+.leftover{
+    margin-left:19%;
+}
+
+.icon {
+    height: 70px;
+    width: auto;
+    margin-bottom:45px;
+}
+
+.game {
+    height: 85px;
+    width: auto;
+    margin-bottom:30px;
+}
+
+nav .navbar .navbar-expand-sm .navbar-light .spread{
+    padding-top: 50px;
+}
+
+#fanimage {
+    width: 60%;
+    height: auto;
+    margin-top: -5%;
+    margin-left: 20%;
+    margin-right: 1%;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+
+.left {
+    margin-left: -.5%;
+}
+
+#creatorimage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-right:8%;
+    margin-top:-1%;
+}
+
+.col-lg {
+    text-align: center;
+    line-height: 125%;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.navbar .navbar-expand-sm .navbar-light {
+    padding: 5%
+}
+.bold{
+    font-weight: bold;
+}
+.tint {
+    padding-top:2%;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.thankscreator {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    margin-bottom:1%;
+}
+.about {
+    margin: 5%;
+}
+.team {
+    color: red;
+    margin-bottom: 20%;
+}
+.thanksfan {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 1%;
+}
+
+table, .center{
+    text-align:center;
+}
+.closer {
+    font-size: 16px;
+    background-color:white;
+    border-color:white;
+    border-style: none;
+    margin: 5px;
+
+}
+div .modal-footer{
+    padding:0px !important;
+    border-radius: 5px;
+}
+.tab {
+    width: 50px;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.bottomtab {
+    width: 25px;
+    height: auto;
+    margin-right:.5%;
+}
+.social{
+    text-align:center;
+    margin-top:3%;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left{
+    text-align:left;
+}
+.centered{
+    padding-top:15%;
+    padding-left:20%;
+    margin-right:100px;
+    width:95%
+
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+.emailenter {
+    width: 60%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 10px;
+    align-items:center;
+    padding-right: 50px;
+}
+
+.emailsubmit {
+    width: 23%;
+    height: 100%;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -50px;
+}
+.emailsubmit:focus {
+    outline: none;
+}
+.emailenter:focus {
+    outline: none;
+    margin-right: 0;
+}
+
+/*header styling*/
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    z-index:2;
+}
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: .5%;
+    font-weight: 300;
+    display:inline;
+}
+h3 {
+    font-weight: 200;
+    font-size: 22.5px !important;
+    text-align: center;
+    margin-bottom:.5%;
+    line-height: 110%;
+    display:block;
+}
+
+h5 {
+font-weight: 300;
+font-size: 18px;
+text-align: center;
+width: 75%;
+margin-left: 12%;
+}
+
+h6 {
+    font-size: 16px;
+    align-items: center;
+}
+
+
+/*steps*/
+
+.stepsgreet {
+    padding-top: 55px;
+    padding-bottom: 78px;
+}
+.steps {
+    padding-bottom: 5.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.discover{
+    padding-top: 9%;
+    text-align: center;
+    padding-bottom: 9%
+}
+.startsign{
+    display:block;
+    text-align: center;
+    height: 35%;
+}
+
+.foot{
+    padding-top: 39px;
+    padding-bottom: 72px;
+    padding-left: 60px;
+    width:100%;
+}
+
+hr {
+    border-width: 1px; 
+    border-color: black; 
+    width: 30%; 
+    float: left; 
+    margin:auto;
+    display:block;
+}
+.push{
+    margin-bottom: 5%;
+}
+
+@media (max-width: 992px) {
+    .welcome {
+        margin-left: 10%;
+        margin-right:10%;
+    }
+    #getstartedbottom {
+        width:60%;
+    }
+        #fanimage {
+        width: 60%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 2%;
+    }
+    .row .col-lg-6 .centered #getstartedfan{
+        width: 100%;
+    }
+
+    .centered {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left:0%;
+        padding-top:0%;
+        width: 65%;
+    }
+
+
+    #creatorimage {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .typeform-share {
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) {
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("hamburger_menu.png") !important;
+        height: auto;
+    }
+    .thanksfan {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+    }
+    .welcome {
+       margin-left:8%;
+       margin-right:8%;
+        font-size: 35px;
+        margin-bottom: 0%;
+        margin-top: 5%;
+    }
+    .space{
+        margin-bottom:0%;
+        display:inline;
+    }
+    .spacing{
+        margin-bottom:0%;
+        margin-top:0%;
+    }
+    h2 {
+        font-weight: 200;
+        font-size: 22.5px;
+        text-align: center;
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin:0% !important;
+        display: inline !important;
+    }
+
+    .centered {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top:-2%;
+        width: 75%;
+        text-align:center;
+    }
+    .row .col-lg-6 .centered #getstartedfan, .typeform-share {
+        padding: 0%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        display:block;
+    }
+
+    .headicon {
+        margin: 8%;
+    }
+
+    .arrow {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: -4%;
+        visibility: hidden;
+    }
+
+    .left {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .tint .navbar-light .navbar-nav .nav-link {
+        position: absolute;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: -4%;
+        visibility: hidden;
+    }
+
+        .tint .navbar-light .navbar-nav .nav-link:hover {
+            position:absolute;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-top: -4%;
+            visibility: hidden;
+        }
+
+    .headicon, .footicon {
+        width: 120px;
+        height: auto;
+    }
+
+    .footicon {
+        margin-left: -22%;
+    }
+
+    .mobilefoot {
+        visibility: visible;
+        width: 100%;
+        text-indent: 0%;
+        margin-bottom:2%;
+
+        position:static;
+    }
+    .mobilelink {
+        font-size: 22.5px;
+    }
+    hr {
+        visibility:hidden;
+    }
+ 
+}
